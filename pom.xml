@@ -61,11 +61,18 @@
 			<scope>test</scope>
 		</dependency>
 
+		<!-- Dependencia para postgresSQL -->
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>42.7.5</version> 
+		</dependency>
+
 		<!-- Para usar anotaciones com @getter -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-		
+
 			<scope>provided</scope>
 		</dependency>
 
